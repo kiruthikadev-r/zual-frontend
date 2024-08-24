@@ -5,7 +5,7 @@ import Cookies from 'js-cookie';
 import './index.css'; 
 
 const api = axios.create({
-  baseURL: 'http://localhost:3001' 
+  baseURL: 'https://zual-backend.onrender.com/' 
 });
 
 function BlogList() {
