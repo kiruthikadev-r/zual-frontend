@@ -1,0 +1,77 @@
+.blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4CAF50;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #333;
+    background-color: #e7f5ff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: block;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  a:hover {
+    background-color: #124de3;
+    color: white;
+  }
+
+
+.add-post-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #062f64;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .add-post-button:hover {
+    background-color: #3290d7;
+  }
+  
+  .add-post-button:active {
+    background-color: #3290d7;
+  }
+  
+  .add-post-button-container{
+    display: flex;
+    justify-content: right;
+
+  }
