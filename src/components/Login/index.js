@@ -15,7 +15,8 @@ function Login() {
       console.log('Login successful', res.data);
       
       
-      Cookies.set('token', res.data.token, { expires: 7 }); 
+      Cookies.set('token', res.data.token, { expires: 1 / 24 });
+
 
       
       navigate('/'); 
